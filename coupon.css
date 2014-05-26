@@ -1,0 +1,13 @@
+/* "." defines a css class selector for many elements
+ "#" defines an id selector for one unique element
+ex: <p id="para1">Hello World!</p>
+<p>This paragraph is not affected by the style.</p>
+*/
+
+.container {width:274px;padding:10px;border-radius:5px;border:3px dashed grey}  /*size of coupon total 300px*/
+.content {color:black;margin-left:auto;margin-right:auto;font-family:"Trebuchet MS", Helvetica, sans-serif;} /*all content center aligned*/
+.header {font-size:22px;color:#B40404;} /*header properties*/
+.address {font-size:12px;} /*address properties*/
+#logo {float:right;} /*logo positiontingmargin-left:130px;*/
+#contact {font-size:15px;font-weight:bold;float:left;margin:10px;text-decoration:underline;}
+ 

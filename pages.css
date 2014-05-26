@@ -1,0 +1,72 @@
+.content {
+color:black;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+} /*all content center aligned*/
+
+.header {
+font-size:80px;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;; 
+color:#000000;
+} /*header properties*/
+
+#address {
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+font-size:14px;
+text-align:center;
+} /*address properties*/
+
+#logo {
+float:left;
+} /*logo positionting margin-left:130px;*/
+
+#contact {
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+font-size:20px;
+font-weight:bold;
+text-align:center;
+margin:10px;
+text-decoration:underline;
+}
+
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}/*list elements*/
+
+a:link,a:visited
+{
+display:inline-block;
+width:120px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#000000;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:lowercase;
+}/*a href elements*/ 
+a:hover,a:active
+{
+color:#000000;
+background-color:#F0F0F0;
+}
+
+li{
+display:inline;
+}/*float left to get block elements next to each other*/
+
+.menu{
+text-align:center;
+background-color:#F0F0F0;
+font-size: 24px;
+border-radius:5px;
+color: #000000;
+float:center;
+}
+
+
